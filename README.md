@@ -10,5 +10,5 @@ Nota:olvide colocarlo en los pasos pero antes de ejecutar el comando " docker co
 8.-coloca la siguiente instruccion " use olympics "
 9.-coloca la siguinete instruccion " source backup.sql "
 
-listo ya tendas todas las tablas de la base de datos en tu contendor, estas instrucciones solo es nesesario hacerlas una vez.
-
+listo ya tendras todas las tablas de la base de datos en tu contendor, estas instrucciones solo es nesesario hacerlas una vez.
+Si quieres cambiar el puerto pudes hacerlo desde el archivo docker-compose.yml, por defecto el puerto es el 8082
