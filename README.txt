@@ -7,7 +7,7 @@ Nota:olvide colocarlo en los pasos pero antes de ejecutar el comando " docker co
 5.-Ejecuta el siguiente comando " docker cp backup.sql id_contenedor:/backup.sql " reemplaza la parte que dice id_contenedor por el id que copiaste en el paso anterior
 6.-Ejecuta el comando " docker exec -it id_contenedor mysql -u root -p " reemplaza la parte que dice id_contenedor por el id que copiaste en el paso anterior, te pedira que ingreses una contraseña: "root"
 7.-coloca la siguiente instruccion " create database olympics; "
-8.-coloca la siguiente instruccion " use olympics "
+8.-coloca la siguiente instruccion " use olympics; "
 9.-coloca la siguinete instruccion " source backup.sql "
 
 listo ya tendras todas las tablas de la base de datos en tu contendor, estas instrucciones solo es nesesario hacerlas una vez.
