@@ -1,6 +1,6 @@
 Nota:olvide colocarlo en los pasos pero antes de ejecutar el comando " docker compose up -d " no se olviden de usar el comando sudo su para tener privilegios de administrador 
 
-1.-Extrae el documento zip en la ruta que desees 
+1.-Extrae el documento .zip en la ruta que desees 
 2.-Ingresa a la carpeta que acabas de extraer y abre una terminal desde ahi
 3.-Ejecuta el comando " docker compose up -d " sin las comillas para que puedas levantar el contenedor
 4.-Ejecuta el comnado " docker ps " para poder ver los contenedores que estan corriendo y copia el id del contenedor que tenga la imagen de mysql
